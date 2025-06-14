@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TutorIA</title>
+  <link rel="stylesheet" href="tutoria.css">
+</head>
+<body>
+<section class="logo">
+  <div class="logotutoria">
+
+    <div class="logo-img">
+      <img src="logo.png" alt="TutorIA">
+    </div>
+
+    <h1>Uma nova forma de<br> aprender português, no ritmo<br> de cada aluno, com o apoio da IA</h1>
+
+    <p class="descricao">
+      Interpretação, ortografia, gramática e redação com correção automática, trilhas personalizadas e engajamento real.
+    </p>
+
+    <div class="botoes">
+      <a href="#" class="btn">ACESSAR A PLATAFORMA</a>
+      <a href="https://play.google.com/store/games?hl=pt_BR" class="btn">BAIXAR O APLICATIVO</a>
+    </div>
+
+    <div class="info">
+      <img src="google-chrome-logo-svgrepo-com.svg" alt="Ícone calendário">
+      <span>UMA PLATAFORMA PARA ALUNOS E PROFESSORES</span>
+    </div>
+
+  </div>
+
+  <!-- 🔥 Divisor PNG no final da seção -->
+  <!-- <div class="divisor">
+    <img src="divisor.svg" alt="Divisor gráfico">
+  </div> -->
+
+</section>
+
+
+</body>
+</html>
+
+<!-- sessão 2 -->
+<div style="height: 150px;"></div>
+
+<section class="problema">
+  <div class="container-problema">
+    <h2>O Brasil enfrenta um problema<br> de apagão linguístico.</h2>
+
+  <p class="descricao">
+      Mais de 80% dos alunos têm dificuldades em interpretação, escrita e ortografia. 
+      Isso afeta o desempenho escolar, a autoestima e o futuro de milhões de jovens.
+    </p>
+
+    <div class="cards-problema">
+      <div class="card">
+        <img src="ICON CHECK.svg" alt="Ícone 1">
+        <p><strong>80%</strong> não compreendem textos!</p>
+      </div>
+
+      <div class="card">
+        <img src="ICON CHECK.svg" alt="Ícone 2">
+        <p><strong>75%</strong> cometem erros ortográficos!</p>
+      </div>
+
+      <div class="card">
+        <img src="ICON CHECK.svg" alt="Ícone 3">
+        <p><strong>65%</strong> têm falhas em gramática!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- sessão 3 -->
+
+<div style="height: 200px;"></div>
+
+<section class="tecnologia">
+  <div class="container-tecnologia">
+    <div class="texto-tecnologia">
+      <h2>A tecnologia virou <br> aliada da educação.</h2>
+      <p>
+        TutorIA é uma plataforma com inteligência artificial que identifica as 
+        dificuldades do aluno e ensina o que ele realmente precisa aprender, 
+        com atividades personalizadas, correção automatizada e muito mais!
+      </p>
+    </div>
+
+    <div class="video-container">
+      <video controls>
+        <source src="video/tutoria.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- sessão 4 -->
+
+<div style="height: 200px;"></div>
+
+<section class="caminho">
+  <div class="container-caminho">
+
+    <div class="texto-caminho">
+      <img src="logo.png" alt="Logo TutorIA" class="logo-caminho">
+
+      <h2>Você escolhe o caminho, <br> a IA cuida do resto.</h2>
+
+      <p class="descricao">
+        Cada aluno aprende de um jeito. Por isso, o TutorIA identifica suas maiores 
+        dificuldades e oferece atividades, correções e trilhas personalizadas, 
+        tudo com o apoio de inteligência artificial e tecnologia educacional de verdade.
+      </p>
+    </div>
+
+    <div class="cards-funcionalidades">
+      <div class="card-func">
+        <img src="ICON PLUS.png" alt="Ícone">
+        <span>Interpretação de textos diversos</span>
+      </div>
+
+      <div class="card-func">
+        <img src="ICON PLUS.png" alt="Ícone">
+        <span>Correção de redações</span>
+      </div>
+
+      <div class="card-func">
+        <img src="ICON PLUS.png" alt="Ícone">
+        <span>Trilhas personalizadas de aprendizado</span>
+      </div>
+
+      <div class="card-func">
+        <img src="ICON PLUS.png" alt="Ícone">
+        <span>Painel com histórico de progresso</span>
+      </div>
+
+      <div class="card-func">
+        <img src="ICON PLUS.png" alt="Ícone">
+        <span>Gamificação com ranking e medalhas</span>
+      </div>
+
+      <p class="e-mais">E muito mais...</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- sessão 5 -->
+
+<div style="height: 200px;"></div>
+
+<section class="comparativo">
+  <h2>
+    Veja a diferença entre usar o TutorIA e continuar com o ensino tradicional sozinho
+  </h2>
+
+  <div class="container-comparativo">
+
+    <!-- Coluna Sem TutorIA -->
+    <div class="card-comparativo sem-tutoria">
+      <h3>Sem TutorIA</h3>
+      <ul>
+        <li><span class="icone negativo"></span> Alunos com dificuldades recebem o mesmo conteúdo que os demais.</li>
+        <li><span class="icone negativo"></span> Correção de redações é lenta e limitada ao tempo do professor.</li>
+        <li><span class="icone negativo"></span> Professores não têm dados concretos sobre o desempenho real da turma.</li>
+        <li><span class="icone negativo"></span> Falta de engajamento e motivação dos estudantes.</li>
+        <li><span class="icone negativo"></span> Material defasado e repetitivo.</li>
+        <li><span class="icone negativo"></span> Acompanhamento pedagógico manual e impreciso.</li>
+      </ul>
+    </div>
+
+    <!-- Coluna Com TutorIA -->
+    <div class="card-comparativo com-tutoria">
+      <h3>Com TutorIA</h3>
+      <ul>
+        <li><span class="icone positivo"></span> Cada aluno recebe atividades adaptadas às suas dificuldades.</li>
+        <li><span class="icone positivo"></span> Redações são corrigidas por IA em minutos, com feedback.</li>
+        <li><span class="icone positivo"></span> Painel completo com relatórios e trilhas por aluno ou turma.</li>
+        <li><span class="icone positivo"></span> Gamificação com pontuação, ranking e medalhas por progresso.</li>
+        <li><span class="icone positivo"></span> Aulas e atividades atualizadas, visuais e interativas.</li>
+        <li><span class="icone positivo"></span> IA identifica padrões de erro e sugere atividades específicas.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- sessão 8 -->
+
+<div style="height: 200px;"></div>
+
+<section class="sessao8">
+  <h2>Como você quer começar?</h2>
+
+  <div class="container-planos">
+
+    <!-- Plano Pessoal -->
+    <div class="card-plano">
+      <h3>Plano Pessoal</h3>
+      <p class="subtitulo">Opção para alunos!</p>
+      <div class="preco">
+        <span>R$</span>
+        <strong>35</strong>
+        <small>,90</small>
+      </div>
+
+      <button class="botao-outline">CONTRATAR O PLANO</button>
+
+      <div class="linha"></div>
+
+     <p class="recursos-titulo">VEJA OS RECURSOS DISPONÍVEIS</p>
+
+      <ul class="recursos">
+        <li><span class="bolinha"></span> Acesso gratuito ao conteúdo básico</li>
+        <li><span class="bolinha"></span> Planos pagos com aulas completas</li>
+        <li><span class="bolinha"></span> Correção de redações e IA particular</li>
+        <li><span class="bolinha"></span> Ideal para famílias ou estudantes</li>
+      </ul>
+    </div>
+
+    <!-- Plano Institucional -->
+    <div class="card-plano destaque">
+      <div class="etiqueta">MAIS POPULAR</div>
+      <h3>Plano Institucional</h3>
+      <p class="subtitulo">Opção para instituições e professores!</p>
+      <div class="preco">
+        <span>R$</span>
+        <strong>74</strong>
+        <small>,90</small>
+      </div>
+
+      <button class="botao-preenchido">CONTRATAR O PLANO</button>
+
+      <div class="linha"></div>
+
+      <p class="recursos-titulo">VEJA OS RECURSOS DISPONÍVEIS</p>
+
+      <ul class="recursos">
+        <li><span class="bolinha"></span> Acesso gratuito ao conteúdo básico</li>
+        <li><span class="bolinha"></span> Planos pagos com aulas completas</li>
+        <li><span class="bolinha"></span> Correção de redações e IA particular</li>
+        <li><span class="bolinha"></span> Implantação em instituições públicas e privadas</li>
+
+        <li><span class="bolinha"></span> Painel do professor com relatórios</li>
+        <li><span class="bolinha"></span> Gestão de desempenho escolar</li>
+        <li><span class="bolinha"></span> Venda via licitação pública</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- sessão 10 -->
+ <div style="height: 200px;"></div>
+ 
+<footer class="rodape">
+  <div class="container-rodape">
+
+    <!-- Coluna Esquerda -->
+    <div class="coluna">
+      <p>(55) 3289-1132</p>
+      <p>Estrada Recanto Maestro, 338 – Recanto Maestro<br>Restinga Seca – RS</p>
+      <p>CNPJ: 07.667.226/0001-84 • Desde 2010</p>
+    </div>
+
+    <!-- Coluna Centro (Logo) -->
+    <div class="coluna logo-rodape">
+      <img src="logo.png" alt="TutorIA">
+    </div>
+
+    <!-- Coluna Direita -->
+    <div class="coluna direita">
+      <p>©2025 Todos os direitos reservados.</p>
+      <p>
+        <a href="#">Política de Privacidade</a> | 
+        <a href="#">Termos de Serviço</a> | 
+        <a href="#">Status</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
