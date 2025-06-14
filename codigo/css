@@ -1,0 +1,665 @@
+/* ===== RESET BÁSICO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== SEÇÃO 1 COM BACKGROUND ===== */
+.logo {
+  background-image: url('header cassol.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  flex-direction: column;
+}
+
+/* ===== CONTEÚDO DA SEÇÃO 1 ===== */
+body {
+  background-color: #0a0a23;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logotutoria {
+  width: 100%;
+  height: 100px;
+  padding-left: 390px;
+}
+
+.logo-img {
+  width: 100%; /* ou o tamanho que desejar */
+}
+
+.logo-img img {
+  z-index: 1000;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: #121c4e;
+  stroke-width: 2%;
+}
+
+.descricao {
+  color: #161624;
+  max-width: 600px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.botoes a {
+  font-weight: bold;
+
+}
+
+.btn {
+  background-color: #00e6a8;
+  color: #0a0a23;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #00c895;
+}
+
+.divisor {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  color: #161624;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.info img {
+  width: 20px;
+  height: 20px;
+}
+/* ===== OUTRA SEÇÃO (EXEMPLO) ===== */
+.outra-secao {
+  background-color: #0a0a23;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.outra-secao h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+
+
+#sessão2
+
+.problema {
+  background-color: #0a0a23;
+  padding: 100px 20px;
+  margin-top: 300px;
+}
+
+.container-problema {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; /* 🔥 Isso centraliza h2, p, img e qualquer texto */
+}
+
+.problema h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+.problema .descricao {
+  color: #b5b5c3;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+  font-size: 1rem;
+}
+
+.cards-problema {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: transparent; /* 🔥 Remove o fundo branco */
+  padding: 20px;
+  border-radius: 20px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 45px; /* 🔥 Aumenta a imagem */
+  height: 45px;
+}
+
+.card p {
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+#sessão3
+
+.tecnologia {
+  background-color: #0a0a23;
+  padding: 100px 20px;
+}
+
+.container-tecnologia {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.texto-tecnologia {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.texto-tecnologia h2 {
+  color: white;
+  font-size: 2.5rem;
+  max-width: 500px;
+  line-height: 1.3;
+}
+
+.texto-tecnologia p {
+  color: #b5b5c3;
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.video-container {
+  background-color: #cfcfcf;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  display: block;
+}
+
+#sessao4
+
+.caminho {
+  background-color: #0a0a23;
+  padding: 100px 20px;
+}
+
+.container-caminho {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.texto-caminho {
+  max-width: 500px;
+}
+
+.texto-caminho .logo-caminho {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.texto-caminho h2 {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.texto-caminho .descricao {
+  color: #b5b5c3;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.cards-funcionalidades {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.card-func {
+  display: flex;
+  align-items: center;
+  background-color: #5a5a5a;
+  padding: 15px 20px;
+  border-radius: 15px;
+  gap: 15px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+}
+
+.card-func img {
+  width: 40px; /* 🔥 Aumentado (antes era 30px) */
+  height: 40px;
+  border-radius: 8px;
+  background-color: transparent; /* 🔥 Remove o fundo branco */
+}
+
+
+.card-func span {
+  color: white;
+  font-weight: 500;
+}
+
+.e-mais {
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+
+#sessao5
+
+
+.comparativo {
+  background-color: #0a0a23;
+  padding: 100px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.comparativo h2 {
+  color: white;
+  font-size: 2.2rem;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.container-comparativo {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card-comparativo {
+  border-radius: 15px;
+  padding: 30px 25px;
+  width: 320px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.sem-tutoria {
+  background-color: #787d9c;
+}
+
+.com-tutoria {
+  background-color: #ffffff;
+}
+
+.card-comparativo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.sem-tutoria h3 {
+  color: white;
+}
+
+.com-tutoria h3 {
+  color: #0a0a23;
+}
+
+.card-comparativo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-comparativo li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.sem-tutoria li {
+  color: white;
+}
+
+.com-tutoria li {
+  color: #0a0a23;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* 🔥 Bolinhas iguais e alinhadas */
+.icone {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.icone.negativo {
+  background-color: #ff4d4d;
+}
+
+.icone.positivo {
+  background-color: #00cc66;
+}
+
+#sessão8
+
+.sessao8 {
+  background-color: #0a0a23;
+  padding: 100px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sessao8 h2 {
+  color: white;
+  font-size: 2.2rem;
+  margin-bottom: 60px;
+  text-align: center; /* 🔥 Centraliza o texto */
+}
+
+.container-planos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-plano {
+  background-color: #131b41;
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 320px;
+  position: relative;
+}
+
+.card-plano.destaque {
+  background-color: #121c4e;
+}
+
+.etiqueta {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00e6a8;
+  color: #0a0a23;
+  font-size: 0.8rem;
+  padding: 5px 15px;
+  border-radius: 10px 10px 0 0;
+  font-weight: 600;
+}
+
+.card-plano h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.subtitulo {
+  color: #b5b5c3;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+.preco {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.preco span {
+  font-size: 1rem;
+}
+
+.preco strong {
+  font-size: 2.8rem;
+}
+
+.preco small {
+  font-size: 1rem;
+}
+
+/* ===== Botões Centralizados ===== */
+.botao-outline, .botao-preenchido {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.botao-outline {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #00e6a8;
+}
+
+.botao-outline:hover {
+  background-color: #00e6a8;
+  color: #0a0a23;
+}
+
+.botao-preenchido {
+  background-color: #00e6a8;
+  color: #0a0a23;
+  border: none;
+}
+
+.botao-preenchido:hover {
+  background-color: #00cc94;
+}
+
+/* ========================== */
+
+.linha {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 20px 0;
+}
+
+.recursos-titulo {
+  color: white;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+.recursos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.recursos li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.recursos li .bolinha {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00e639;
+  flex-shrink: 0;
+}
+
+#sessão10
+
+.rodape {
+  background-color: #0a0a23;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.rodape {
+  background-image: url('banner sessão checkout.webp');
+  background-size: cover; /* 🔥 Cobre 100% da área */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 80px 20px; /* 🔥 Ajuste a altura conforme necessário */
+  color: white; /* 🔥 Cor dos textos do rodapé */
+}
+
+.container-rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rodape p {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.container-rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.rodape {
+  background-color: white; /* opcional, se quiser fundo claro */
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.container-rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+/* 🔥 Cor aplicada aqui */
+.coluna {
+  text-align: left;
+}
+
+.coluna p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+
+.logo-rodape {
+  text-align: center;
+}
+
+.logo-rodape img {
+  width: 130px;
+}
+
+.direita {
+  text-align: right;
+  color: #0b0b2b;
+}
+
+.direita a {
+  color: #0b0b2b;
+  text-decoration: none;
+}
+
+.direita a:hover {
+  text-decoration: underline;
+}
+
+/* 🔥 Garantindo que todos os links e textos fiquem na cor certa */
+.rodape a, .rodape span, .rodape p {
+  color: #0b0b2b;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .container-rodape {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .direita {
+    text-align: center;
+  }
+}
